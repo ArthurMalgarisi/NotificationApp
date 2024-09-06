@@ -1,0 +1,119 @@
+
+body{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 90px;
+}
+input{
+  width: 50%;
+  padding: 12px;
+}
+button{
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(117, 172, 255);
+  margin-top: 10px;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+  transition: 2s ease;
+}
+button:hover{
+  transition: 2s ease;
+  background-color: aqua;
+}
+.username{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: rgb(0, 52, 87);
+  font-size: 35px;
+}
+.main{
+  width: 50vh;
+  border-radius: 5px;
+  border: 1px solid rgb(38, 63, 1);
+}
+.iconImg{
+  height: 20px;
+  width: 20px;
+}
+.navbar{
+  height: 50px;
+  background-color: rgb(200, 154, 243);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+}
+.icons{
+  display: flex;
+}
+.icon{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.counter{
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  height: 280px;
+}
+.info{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.userImg{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.interactions{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.card_icons{
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.postImg{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.notification{
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
